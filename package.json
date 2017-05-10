@@ -8,7 +8,7 @@
   "scripts": {
     "start": "npm-register start"
   },
-  "dependencies": {
+  "devDependencies": {
     "npm-register": "^2.2.0"
   }
 }
