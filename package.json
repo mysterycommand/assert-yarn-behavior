@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:mysterycommand/assert-yarn-behavior.git",
-  "author": "Matt Hayes <mhayes@tumblr.com> (https://mysterycommand.tumblr.com/)",
+  "author": "Matt Hayes <matt@mysterycommand.com> (http://mysterycommand.com/)",
   "license": "MIT"
 }
