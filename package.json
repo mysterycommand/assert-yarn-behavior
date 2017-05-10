@@ -10,6 +10,6 @@
     "start": "npm-register start"
   },
   "devDependencies": {
-    "npm-register": "^2.2.0"
+    "npm-register": "2.2.0"
   }
 }
