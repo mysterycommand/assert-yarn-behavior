@@ -1,0 +1,15 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "description": "foo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Matt Hayes <matt@mysterycommand.com> (http://mysterycommand.com/)",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "http://localhost:3000/"
+  }
+}
