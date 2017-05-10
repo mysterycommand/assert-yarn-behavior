@@ -1,5 +1,6 @@
 {
   "name": "assert-yarn-behavior",
+  "private": true,
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:mysterycommand/assert-yarn-behavior.git",
