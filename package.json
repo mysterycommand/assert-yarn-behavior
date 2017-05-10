@@ -5,6 +5,9 @@
   "repository": "git@github.com:mysterycommand/assert-yarn-behavior.git",
   "author": "Matt Hayes <matt@mysterycommand.com> (http://mysterycommand.com/)",
   "license": "MIT",
+  "scripts": {
+    "start": "npm-register start"
+  },
   "dependencies": {
     "npm-register": "^2.2.0"
   }
