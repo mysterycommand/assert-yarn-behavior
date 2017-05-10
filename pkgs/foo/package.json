@@ -1,5 +1,5 @@
 {
-  "name": "foo",
+  "name": "@test/foo",
   "version": "1.0.0",
   "description": "foo",
   "main": "index.js",
