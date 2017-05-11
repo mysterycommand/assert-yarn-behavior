@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@test/bar@^1.0.0":
+  version "1.0.0"
+  resolved "http://localhost:3000/@test/bar/-/@test/bar-1.0.0/1600ad99e82b7c86d89ac5810be4e208eabad521.tgz#1600ad99e82b7c86d89ac5810be4e208eabad521"
+
 "@test/foo@1.0.0":
   version "1.0.0"
   resolved "http://localhost:3000/@test/foo/-/@test/foo-1.0.0/526824fc35c90a1ce5d99889417e9bd1bc4b75ca.tgz#526824fc35c90a1ce5d99889417e9bd1bc4b75ca"
