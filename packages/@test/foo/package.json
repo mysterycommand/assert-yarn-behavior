@@ -1,6 +1,6 @@
 {
   "name": "@test/foo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "foo",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,8 @@
   "license": "MIT",
   "publishConfig": {
     "registry": "http://localhost:3000/"
+  },
+  "dependencies": {
+    "@test/baz": "^1.0.0"
   }
 }
