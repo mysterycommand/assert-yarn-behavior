@@ -7,7 +7,7 @@
   "author": "Matt Hayes <matt@mysterycommand.com> (http://mysterycommand.com/)",
   "license": "MIT",
   "dependencies": {
-    "@test/bar": "^1.0.1",
+    "@test/bar": "^1.1.0",
     "@test/foo": "1.0.0"
   }
 }
