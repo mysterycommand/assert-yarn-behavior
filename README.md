@@ -1,20 +1,43 @@
 # Assert Yarn Behavior
 >Just trying to suss out how Yarn works with a little experiment.
 
-Okay, so, I created these test packages, `@test/foo`, `@test/bar`, and `@test/baz`. All at `1.0.0`. I think what I need to do is `yarn add` each of these, and then bump one and make sure that other users running `yarn install` don't get a different `yarn.lock` file. Also, experiment with `--pure-lockfile` and `--frozen-lockfile`. Also, ensure that not only did the lock file not change, but that the dependency tree didn't change … so to that end, maybe use the `--modules-folder` so that we can just `tree whatever` and not get all the `npm-register` deps as well?
+## A Clean Start
+This repo now contains just the test packages (in the packages folder as `@test/foo`, `@test/bar`, and `@test/baz`, all at v1.0.0) and a `tmp` folder (used by `npm-register` to store the `htpasswd` file, `auth_tokens` (ignored), package info, and tarballs).
 
-## How to Use
+#### Here's what I'm running:
 ```bash
-$ git clone git@github.com:mysterycommand/assert-yarn-behavior.git
-$ cd assert-yarn-behavior/
-$ npm install npm-register@2.2.0 # we don't want to yarn add/install here
-$ yarn start # starts the npm-registry at localhost:3000
+$ node --version
+v6.10.3
+$ npm --version
+3.10.10
+$ yarn --version
+0.23.4
 ```
 
-… then, in a separate tab/process/thread, I don't know … maybe like:
+## Getting Started
+In order to set this test up, you'll need to install [`npm-register`](https://github.com/dickeyxxx/npm-register) globally. Use _either_ (not both) of the following (I'm running v2.2.0 at time of writing):
 ```bash
-$ yarn add foo bar baz # ?
-$ yarn --production # ?
+$ yarn global add npm-register
+```
+Sometimes Yarn appears to have issues linking binaries. This might be related to switching Node versions with `nvm`? Anyway if you get `-bash: npm-register: command not found` you could try it the old fashioned way:
+```bash
+$ npm --global install npm-register
 ```
 
-Idk, that's all tbd I guess. What are the experiments, how do we assert results.
+Once it's installed you can start it with (the `--always-https` flag is so that Yarn doesn't bark about non-https redirects, [more here](https://github.com/dickeyxxx/npm-register#yarn-compatibility), but I think they actually fixed this on the Yarn side, so maybe you don't need it):
+```bash
+$ npm-register start --always-https
+```
+
+With your local registry running at `http://localhost:3000/` you should be able to:
+```bash
+$ npm login --registry=http://localhost:3000/
+Username: test
+Password: test
+Email: (this IS public) test@test.com
+Logged in as test on http://localhost:3000/.
+$ npm whoami --registry=http://localhost:3000/
+test
+```
+
+
