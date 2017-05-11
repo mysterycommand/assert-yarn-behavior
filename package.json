@@ -8,6 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "@test/bar": "^1.1.0",
+    "@test/baz": "^1.0.0",
     "@test/foo": "1.0.0"
   }
 }
