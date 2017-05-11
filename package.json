@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:mysterycommand/assert-yarn-behavior.git",
   "author": "Matt Hayes <matt@mysterycommand.com> (http://mysterycommand.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@test/foo": "1.0.0"
+  }
 }
