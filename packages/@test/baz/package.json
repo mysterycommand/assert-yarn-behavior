@@ -1,6 +1,6 @@
 {
   "name": "@test/baz",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "baz",
   "main": "index.js",
   "scripts": {
