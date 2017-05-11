@@ -9,9 +9,6 @@
   "scripts": {
     "start": "npm-register start"
   },
-  "devDependencies": {
-    "npm-register": "2.2.0"
-  },
   "dependencies": {
     "@test/bar": "^1.0.0",
     "@test/baz": "^1.0.0",
