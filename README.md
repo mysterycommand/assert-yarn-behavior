@@ -24,11 +24,13 @@ Sometimes Yarn appears to have issues linking binaries. This might be related to
 $ npm --global install npm-register
 ```
 
+### Start the local/private registry
 Once it's installed you can start it with (the `--always-https` flag is so that Yarn doesn't bark about non-https redirects, [more here](https://github.com/dickeyxxx/npm-register#yarn-compatibility), but I think they actually fixed this on the Yarn side, so maybe you don't need it):
 ```bash
 $ npm-register start --always-https
 ```
 
+### Log in as `test:test`
 With your local registry running at `http://localhost:3000/` you should be able to:
 ```bash
 $ npm login --registry=http://localhost:3000/
@@ -40,4 +42,18 @@ $ npm whoami --registry=http://localhost:3000/
 test
 ```
 
+### Publish the packages
+With the registry running, and logged in as test, you should now be able to publish the test packages at v1.0.0 like this (repeating for `@test/bar` and `@test/baz`):
+```bash
+$ cd ./packages/@test/foo
+$ npm publish
+```
 
+### Add the packages
+```
+$ cd ../../../
+$ yarn add --exact @test/foo
+$ yarn add @test/bar
+```
+
+Bump, bar, make baz depend on it, re-add.
