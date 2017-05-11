@@ -1,1 +1,72 @@
-{"_id":"@test/foo","name":"@test/foo","description":"foo","dist-tags":{"latest":"1.0.1"},"versions":{"1.0.0":{"name":"@test/foo","version":"1.0.0","description":"foo","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"keywords":[],"author":{"name":"Matt Hayes","email":"matt@mysterycommand.com","url":"http://mysterycommand.com/"},"license":"MIT","publishConfig":{"registry":"http://localhost:3000/"},"readme":"ERROR: No README data found!","_id":"@test/foo@1.0.0","_shasum":"ae69ffc503429ee6acb6b7767dfe08753f71aaac","_from":".","_npmVersion":"3.10.10","_nodeVersion":"6.10.2","_npmUser":{},"dist":{"shasum":"ae69ffc503429ee6acb6b7767dfe08753f71aaac","tarball":"http://localhost:3000/@test/foo/-/@test/foo-1.0.0.tgz"}},"1.0.1":{"name":"@test/foo","version":"1.0.1","description":"foo","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"keywords":[],"author":{"name":"Matt Hayes","email":"matt@mysterycommand.com","url":"http://mysterycommand.com/"},"license":"MIT","publishConfig":{"registry":"http://localhost:3000/"},"readme":"ERROR: No README data found!","_id":"@test/foo@1.0.1","_shasum":"9954d515e349362c37e6fc6c644c09d207865212","_from":".","_npmVersion":"3.10.10","_nodeVersion":"6.10.2","_npmUser":{},"dist":{"shasum":"9954d515e349362c37e6fc6c644c09d207865212","tarball":"http://localhost:3000/@test/foo/-/@test/foo-1.0.1.tgz"}}},"readme":"ERROR: No README data found!","etag":"0.7924133062056178"}
+{
+    "_id": "@test/foo",
+    "name": "@test/foo",
+    "description": "foo",
+    "dist-tags": {
+        "latest": "1.0.1"
+    },
+    "versions": {
+        "1.0.0": {
+            "name": "@test/foo",
+            "version": "1.0.0",
+            "description": "foo",
+            "main": "index.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": {
+                "name": "Matt Hayes",
+                "email": "matt@mysterycommand.com",
+                "url": "http://mysterycommand.com/"
+            },
+            "license": "MIT",
+            "publishConfig": {
+                "registry": "http://localhost:3000/"
+            },
+            "readme": "ERROR: No README data found!",
+            "_id": "@test/foo@1.0.0",
+            "_shasum": "ae69ffc503429ee6acb6b7767dfe08753f71aaac",
+            "_from": ".",
+            "_npmVersion": "3.10.10",
+            "_nodeVersion": "6.10.2",
+            "_npmUser": {},
+            "dist": {
+                "shasum": "ae69ffc503429ee6acb6b7767dfe08753f71aaac",
+                "tarball": "http://localhost:3000/@test/foo/-/@test/foo-1.0.0.tgz"
+            }
+        },
+        "1.0.1": {
+            "name": "@test/foo",
+            "version": "1.0.1",
+            "description": "foo",
+            "main": "index.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": {
+                "name": "Matt Hayes",
+                "email": "matt@mysterycommand.com",
+                "url": "http://mysterycommand.com/"
+            },
+            "license": "MIT",
+            "publishConfig": {
+                "registry": "http://localhost:3000/"
+            },
+            "readme": "ERROR: No README data found!",
+            "_id": "@test/foo@1.0.1",
+            "_shasum": "9954d515e349362c37e6fc6c644c09d207865212",
+            "_from": ".",
+            "_npmVersion": "3.10.10",
+            "_nodeVersion": "6.10.2",
+            "_npmUser": {},
+            "dist": {
+                "shasum": "9954d515e349362c37e6fc6c644c09d207865212",
+                "tarball": "http://localhost:3000/@test/foo/-/@test/foo-1.0.1.tgz"
+            }
+        }
+    },
+    "readme": "ERROR: No README data found!",
+    "etag": "0.7924133062056178"
+}

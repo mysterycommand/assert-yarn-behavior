@@ -1,1 +1,42 @@
-{"_id":"@test/bar","name":"@test/bar","description":"bar","dist-tags":{"latest":"1.0.0"},"versions":{"1.0.0":{"name":"@test/bar","version":"1.0.0","description":"bar","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"keywords":[],"author":{"name":"Matt Hayes","email":"matt@mysterycommand.com","url":"http://mysterycommand.com/"},"license":"MIT","publishConfig":{"registry":"http://localhost:3000/"},"readme":"ERROR: No README data found!","_id":"@test/bar@1.0.0","_shasum":"1600ad99e82b7c86d89ac5810be4e208eabad521","_from":".","_npmVersion":"3.10.10","_nodeVersion":"6.10.2","_npmUser":{},"dist":{"shasum":"1600ad99e82b7c86d89ac5810be4e208eabad521","tarball":"http://localhost:3000/@test/bar/-/@test/bar-1.0.0.tgz"}}},"readme":"ERROR: No README data found!","etag":"0.3818343069784602"}
+{
+    "_id": "@test/bar",
+    "name": "@test/bar",
+    "description": "bar",
+    "dist-tags": {
+        "latest": "1.0.0"
+    },
+    "versions": {
+        "1.0.0": {
+            "name": "@test/bar",
+            "version": "1.0.0",
+            "description": "bar",
+            "main": "index.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": {
+                "name": "Matt Hayes",
+                "email": "matt@mysterycommand.com",
+                "url": "http://mysterycommand.com/"
+            },
+            "license": "MIT",
+            "publishConfig": {
+                "registry": "http://localhost:3000/"
+            },
+            "readme": "ERROR: No README data found!",
+            "_id": "@test/bar@1.0.0",
+            "_shasum": "1600ad99e82b7c86d89ac5810be4e208eabad521",
+            "_from": ".",
+            "_npmVersion": "3.10.10",
+            "_nodeVersion": "6.10.2",
+            "_npmUser": {},
+            "dist": {
+                "shasum": "1600ad99e82b7c86d89ac5810be4e208eabad521",
+                "tarball": "http://localhost:3000/@test/bar/-/@test/bar-1.0.0.tgz"
+            }
+        }
+    },
+    "readme": "ERROR: No README data found!",
+    "etag": "0.3818343069784602"
+}
