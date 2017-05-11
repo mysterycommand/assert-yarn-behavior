@@ -38,3 +38,6 @@ jspm_packages
 
 tmp/packages/
 !tmp/packages/@test
+
+tmp/tarballs/
+!tmp/tarballs/@test
